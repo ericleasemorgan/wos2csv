@@ -19,9 +19,9 @@ To use this system one needs a few things, which are all installable on any desk
 Here is how to make the system go:
 
   1. edit [`./bin/search.sh`](https://github.com/ericleasemorgan/wos2csv/blob/main/bin/search.sh) to configure the desired Web of Science queries and denote where results will be saved
-  2. run [./bin/search.sh](`./bin/search.sh`), and this will result is the caching of many XML files
-  3. run [./bin/batch2csv.sh](`./bin/batch2csv.sh`) thus looping through the XML files and creating a corresponding set of CSV files
-  4. run [./bin/reduce.sh](`./bin/reduce.sh`) to concatenate all the CSV files into a single CSV file (./citations.csv) complete with a header row denoting the following fields: identifier, authors, lead_author_first, lead_author_last, article_title, journal_title, year, volume, issue, page_begin, page_end, page_count, doi, and type
+  2. run [`./bin/search.sh`](https://github.com/ericleasemorgan/wos2csv/blob/main/bin/search.sh), and this will result is the caching of many XML files
+  3. run [`./bin/batch2csv.sh`](https://github.com/ericleasemorgan/wos2csv/blob/main/bin/batch2csv.sh) thus looping through the XML files and creating a corresponding set of CSV files
+  4. run [./bin/reduce.sh](https://github.com/ericleasemorgan/wos2csv/blob/main/bin/reduce.sh) to concatenate all the CSV files into a single CSV file (./citations.csv) complete with a header row denoting the following fields: identifier, authors, lead_author_first, lead_author_last, article_title, journal_title, year, volume, issue, page_begin, page_end, page_count, doi, and type
   5. done
 
 
